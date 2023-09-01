@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="382dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Adrenaline Autos"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ScrollView
+        android:layout_width="328dp"
+        android:layout_height="278dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.521">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Adrenaline Autos, the ultimate destination for exhilarating sports car rentals! At Adrenaline Autos, we offer a high-octane experience that caters to the thrill-seekers and car enthusiasts alike.  Discover a fleet of top-of-the-line sports cars from renowned brands, meticulously curated to ensure an unforgettable driving experience. From iconic Ferraris and Lamborghinis to sleek Porsches and BMW M-series, our collection is a dream come true for every speed aficionado.  Whether you seek to turn heads on the city streets or carve through scenic highways, our sports cars are finely tuned to deliver unmatched performance and adrenaline-pumping power. Each rental comes with the promise of precision engineering, cutting-edge technology, and the pure pleasure of gripping the steering wheel of a true automotive masterpiece.  At Adrenaline Autos, we take pride in providing seamless and personalized service. Our knowledgeable team is dedicated to assisting you in selecting the perfect sports car that aligns with your driving preferences and aspirations.  Experience the freedom of the open road as you embrace the raw energy and elegance of our sports cars. Whether it's a weekend getaway, special occasion, or a treat to yourself, Adrenaline Autos ensures an extraordinary driving adventure that transcends the ordinary.  Get ready to unleash your driving passion and ignite your senses with Adrenaline Autos. Book your dream sports car rental today and prepare to ignite the road with unparalleled style and power. Unleash the thrill!      User can you find me some picture that i can put  ChatGPT I apologize, but as an AI language model, I don't have browsing capabilities and cannot directly find or display images. However, I can guide you on how to find suitable images for your website.  To find images for your Adrenaline Autos website, you can follow these steps:  Use Stock Photo Websites: There are many stock photo websites like Shutterstock, Adobe Stock, Pixabay, and Unsplash where you can find high-quality images related to sports cars. You can search for keywords like &quot;sports car rental,&quot; &quot;luxury sports cars,&quot; or specific car models you want to feature.  Check for Licensing: Make sure to check the licensing terms of the images you choose to ensure they are free to use for commercial purposes or properly licensed.  Showcase Your Fleet: Select images that showcase different sports cars available in your rental fleet. Include images of the interior and exterior of the cars to give potential customers a comprehensive view.  Capture the Thrill: Look for images that evoke excitement, speed, and the thrill of driving a sports car. Pictures of sports cars on scenic routes or winding roads can be particularly appealing.  Highlight the Experience: Consider including images of satisfied customers enjoying their sports car rental experience or images of sports cars at popular tourist destinations or events.  Maintain Consistency: Aim for a cohesive look and feel by selecting images with similar styles and color schemes that align with your website's overall design.  Remember to always respect copyright laws and use images that are either in the public domain, under a suitable license, or obtained with permission from the photographer or copyright holder.       "
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="367dp"
+        android:layout_height="217dp"
+        android:src="@drawable/exoticcarcollection0_6b6bd4925056b36_6b6bd915_5056_b365_ab6064574624d7dd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

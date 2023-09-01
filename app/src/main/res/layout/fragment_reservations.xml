@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="To reserve a car, fill in the following information:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="721dp">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.172" />
+
+        <EditText
+            android:id="@+id/txtMail"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Enter e-mail"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtName"
+            app:layout_constraintVertical_bias="0.029" />
+
+        <Spinner
+            android:id="@+id/spinnerCars"
+            android:layout_width="107dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMail" />
+
+        <Button
+            android:id="@+id/btnReserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="516dp"
+            android:text="Reserve"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="93dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="516dp"
+            android:text="Update"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="86dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="516dp"
+            android:text="Delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="86dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginLeft="308dp"
+            android:layout_marginTop="516dp"
+            android:text="View"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="311dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerCars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
